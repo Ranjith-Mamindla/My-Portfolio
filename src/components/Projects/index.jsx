@@ -29,7 +29,7 @@ const certificates = [
   },
   {
     id: 3,
-    imageUrl: "../../../public/tech/swiggy.png",
+    imageUrl: "/tech/swiggy.png",
     name: "Tasty-kitchens-Swiggy/Zomato-Clone",
     description:
       "A Tasty Kitchens is a food delivery application that connects users with nearby restaurants...",
