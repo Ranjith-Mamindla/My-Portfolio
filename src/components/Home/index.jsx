@@ -85,7 +85,7 @@ const Home = () => (
     </motion.div>
 
     <motion.img
-      src="../../../public/tech/Home.webp"
+      src="/tech/Home.webp"
       alt="Home"
       className="homeImage"
       initial={{ scale: 0.8, opacity: 0 }}
