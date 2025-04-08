@@ -15,14 +15,14 @@ const containerVariants = {
 const certificates = [
   {
     id: 1,
-    imageUrl: "../../../public/tech/ecom.png",
+    imageUrl: "/tech/ecom.png",
     name: "Ecommerce-Application",
     description:
       "An E-commerce application enables users to browse, search, and purchase products online...",
   },
   {
     id: 2,
-    imageUrl: "../../../public/tech/jobby-app.png",
+    imageUrl: "/tech/jobby-app.png",
     name: "Jobby-App",
     description:
       "The Jobby App is a job search platform that allows users to browse and apply for jobs...",
@@ -36,21 +36,21 @@ const certificates = [
   },
   {
     id: 4,
-    imageUrl: "../../../public/tech/nxt-watch.png",
+    imageUrl: "/tech/nxt-watch.png",
     name: "NXT-Watch-Youtube-Clone",
     description:
       "Nxt Watch is a YouTube clone application that allows users to watch, search, and explore video content...",
   },
   {
     id: 5,
-    imageUrl: "../../../public/tech/wikki.png",
+    imageUrl: "/tech/wikki.png",
     name: "Wikipedia-Search-Application",
     description:
       "A Wikipedia Search App allows users to search and browse articles from Wikipedia in a simplified interface...",
   },
   {
     id: 6,
-    imageUrl: "../../../public/tech/todos.png",
+    imageUrl: "/tech/todos.png",
     name: "Todos-Appication",
     description:
       "A ToDos application is a task management tool that allows users to create, view, edit, and delete tasks...",
