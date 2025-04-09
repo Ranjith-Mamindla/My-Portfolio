@@ -19,6 +19,7 @@ const certificates = [
     name: "Ecommerce-Application",
     description:
       "An E-commerce application enables users to browse, search, and purchase products online...",
+    link: "https://ranjithmecom.ccbp.tech/login",
   },
   {
     id: 2,
@@ -33,6 +34,7 @@ const certificates = [
     name: "Tasty-kitchens-Swiggy/Zomato-Clone",
     description:
       "A Tasty Kitchens is a food delivery application that connects users with nearby restaurants...",
+    link: "https://ranjithswiggy.ccbp.tech/",
   },
   {
     id: 4,
@@ -40,6 +42,7 @@ const certificates = [
     name: "NXT-Watch-Youtube-Clone",
     description:
       "Nxt Watch is a YouTube clone application that allows users to watch, search, and explore video content...",
+    link: "https://ranjitmnxtwatch.ccbp.tech/login",
   },
   {
     id: 5,
@@ -47,6 +50,7 @@ const certificates = [
     name: "Wikipedia-Search-Application",
     description:
       "A Wikipedia Search App allows users to search and browse articles from Wikipedia in a simplified interface...",
+    link: "https://github.com/Ranjith-Mamindla/WikipediaSearchApplication",
   },
   {
     id: 6,
@@ -54,6 +58,7 @@ const certificates = [
     name: "Todos-Appication",
     description:
       "A ToDos application is a task management tool that allows users to create, view, edit, and delete tasks...",
+    link: "https://github.com/Ranjith-Mamindla/TodoList-Application",
   },
 ];
 
