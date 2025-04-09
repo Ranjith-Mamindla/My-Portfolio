@@ -23,13 +23,6 @@ const certificates = [
   },
   {
     id: 2,
-    imageUrl: "/tech/jobby-app.png",
-    name: "Jobby-App",
-    description:
-      "The Jobby App is a job search platform that allows users to browse and apply for jobs...",
-  },
-  {
-    id: 3,
     imageUrl: "/tech/swiggy.png",
     name: "Tasty-kitchens-Swiggy/Zomato-Clone",
     description:
@@ -37,7 +30,7 @@ const certificates = [
     link: "https://ranjithswiggy.ccbp.tech/",
   },
   {
-    id: 4,
+    id: 3,
     imageUrl: "/tech/nxt-watch.png",
     name: "NXT-Watch-Youtube-Clone",
     description:
@@ -45,7 +38,7 @@ const certificates = [
     link: "https://ranjitmnxtwatch.ccbp.tech/login",
   },
   {
-    id: 5,
+    id: 4,
     imageUrl: "/tech/wikki.png",
     name: "Wikipedia-Search-Application",
     description:
@@ -53,7 +46,7 @@ const certificates = [
     link: "https://github.com/Ranjith-Mamindla/WikipediaSearchApplication",
   },
   {
-    id: 6,
+    id: 5,
     imageUrl: "/tech/todos.png",
     name: "Todos-Appication",
     description:
