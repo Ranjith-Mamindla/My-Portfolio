@@ -1,32 +1,31 @@
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Home, Info, Code, Folder, Mail } from "lucide-react";
+import { FaHome, FaInfoCircle, FaCode, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 import "./index.css";
 
 const navItems = [
-  { path: "/", label: "Home", icon: <Home size={20} />, id: "home" },
-  { path: "/about", label: "About", icon: <Info size={20} />, id: "about" },
-  { path: "/skills", label: "Skills", icon: <Code size={20} />, id: "skills" },
-  { path: "/projects", label: "Projects", icon: <Folder size={20} />, id: "projects" },
-  { path: "/contact", label: "Contact", icon: <Mail size={20} />, id: "contact" },
+  { path: "/", label: "Home", icon: <FaHome size={18} /> },
+  { path: "/about", label: "About", icon: <FaInfoCircle size={18} /> },
+  { path: "/skills", label: "Skills", icon: <FaCode size={18} /> },
+  { path: "/projects", label: "Projects", icon: <FaFolderOpen size={18} /> },
+  { path: "/contact", label: "Contact", icon: <FaEnvelope size={18} /> },
 ];
 
 const ModernNavbar = () => {
-  const [active, setActive] = useState("home");
-
   return (
     <header className="bubble-navbar">
       {navItems.map((item) => (
-        <div key={item.id} className="bubble-nav-item" onClick={() => setActive(item.id)}>
-          {active === item.id && <div className="bubble-icon-active">{item.icon}</div>}
-          <NavLink
-            to={item.path}
-            className={`bubble-nav-link ${active === item.id ? "active" : ""}`}
-          >
-            {active !== item.id && item.icon}
-            <span>{item.label}</span>
-          </NavLink>
-        </div>
+        <NavLink
+          key={item.path}
+          to={item.path}
+          className={({ isActive }) =>
+            `bubble-nav-link ${isActive ? "active" : ""}`
+          }
+        >
+          <div className={`bubble-icon-wrapper`}>
+            {item.icon}
+          </div>
+          <span>{item.label}</span>
+        </NavLink>
       ))}
     </header>
   );
